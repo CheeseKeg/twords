@@ -48,7 +48,7 @@ int main (int argc, char **argv)
   // Check number of arguments
   if (argc < 2 || argc > 4)
   {
-    std::cout << "Usage: " << argv[0] << " input_file [list_length(10)] [output_file]" << std::endl;
+    std::cout << "Usage: " << argv[0] << " INPUT [LENGTH(10)] [OUTPUT]" << std::endl;
 
     return 1;
   }
